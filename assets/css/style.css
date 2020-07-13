@@ -1,0 +1,78 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+header {
+  padding: 60px 70px;
+  /*background-color:#4BA7EE;*/
+  background-color: orange;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+}
+header a {
+  text-decoration: none;
+  color:white;
+  text-align: right;
+}
+header nav {
+ /* float: right; */
+  display: flex;
+  margin: 7px 0;
+}
+/*
+header nav ul li {
+  display: inline;
+}
+*/
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+header nav ul li a {
+margin: 0 30px;
+font-weight: lighter;
+font-size: 1.55vw;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+  text-align: right;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* overrides Materialize's default width of 70% */
+@media only screen and (min-width: 993px) {
+.container {
+    width: 85%;
+}
+}

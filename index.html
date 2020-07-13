@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Safe Travels</title>
+</head>
+
+<body>
+  <!--Header section begins-->
+  <header>
+    <h1>
+      <img src="./images/safetravel.png" width="140" height="140" />
+      <a href="./index.html">SafeTravels</a>
+    </h1>
+
+    
+  </header>
+  <div class="container">
+    <div class="section">
+      <!--   main body begins   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">beach_access</i></h2>
+            <h5 class="center">Where would you like to travel?</h5>
+            <div class="row">
+              <div class="col s12 l6">
+                <form id="city-form" class="input-field">
+                  <label for="city">Destination (US only)</label>
+                  <input placeholder="City" id="city-input" type="text" class="validate right-align">
+                  <button class="btn right light-blue waves-effect lighhwaves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+
+                </form>
+              </div>
+              <div class="col l6 s12">
+                <h6 class="light">Showing Results For:</h6>
+                <div id="city-holder"></div>
+              </div>
+            </div>
+            <div class="row">
+              <a class='dropdown-trigger btn light-blue' href='#' data-target='previous-searches'>Previous Searches</a>
+              <ul id='previous-searches' class='dropdown-content'></ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">cloud_off</i></h2>
+            <h5 class="center">City Weather Report</h5>
+            <div class="light" id="weather-results"></div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Covid-19 Report</h5>
+            <div id="covid-results">
+              <p class="light center">Covid-19 data is available at the county level</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer section begins-->
+    <footer class="page-footer light-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="orange-text">SafeTravels</h5>
+            <h6 class="grey-text text-lighten-4">Anywhere you want to travel, we will keep you informed to safeTravel!!
+            </h6>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Weather Additional Links</h5>
+            <ul>
+              <li><a class="black-text" href="https://weather.com/">Weather Channel</a></li>
+              <li><a class="black-text" href="https://www.weather.gov/iwx/realtimespotter">National Weather Channel</a>
+              </li>
+              <li><a class="black-text" href="https://www.wunderground.com/">Weather Underground</a></li>
+              <li><a class="black-text" href="https://www.accuweather.com">AccuWeather</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Covid-19 Additional Information</h5>
+            <ul>
+              <li><a class="black-text"
+                  href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">Center for Decease
+                  Control and Prevention </a></li>
+              <li><a class="black-text" href="https://www.usa.gov/coronavirus"> USA Gov</a></li>
+              <li><a class="black-text"
+                  href="https://travel.state.gov/content/travel/en/traveladvisories/ea/covid-19-information.html">Travel.State.Gov</a>
+              </li>
+              <li><a class="black-text" href="https://www.state.gov/coronavirus/">US Department of State</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2020 Copyright SafeTravels <a class="orange-text text-lighten-3" href="copyright.html">Privacy Policy</a>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
