@@ -14,9 +14,9 @@ This Project was developed by the following team members:
     - Marlon Guandique
 
 ## Links
-Website: https://chulopapi.github.io/safeTravels
+Website: https://hanzul.github.io/safeTravels/
 
-Repository: https://github.com/chulopapi/safeTravels
+Repository: https://github.com/hanzul/safeTravels/
 
 ## Technologies used
 
